@@ -1,0 +1,140 @@
+body{
+    --color-1: #a8e6cf;
+    --color-2: #dcedc1; 
+    --color-3: #ffd3b6; 
+    --color-4: #ffaaa5; 
+    --color-5: #ff8b94;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(135deg, var(--color-1) , var(--color-2));
+}
+.container{
+    background: white;
+    max-width: 450px;
+    margin: 80px auto 0;
+    padding: 30px;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+#message{
+    text-align: center;
+}
+.players{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.players #player1{
+    margin-left: 50px;
+}
+.players #player2{
+    margin-right: 50px;
+}
+
+.players .dice{
+    background: pink;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 25px;
+    border-radius: 10%;
+}
+button{
+    border-radius: 8%;
+    background: rgb(236, 165, 236);
+    border: 1px solid rgb(236, 165, 236);
+    height: 80px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#rollBtn{
+    display: block;
+}
+#resetBtn{
+    display: none;
+}
+button:focus {
+    outline: none;
+}
+
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+/* 
+html, body { 
+    --color-1: #a8e6cf;
+    --color-2: #dcedc1; 
+    --color-3: #ffd3b6; 
+    --color-4: #ffaaa5; 
+    --color-5: #ff8b94;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 50px;
+    background-image: linear-gradient(135deg, var(--color-1) , var(--color-2));
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    color: black;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 50px;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dice {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-3);
+    margin: 0 auto;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rollBtn {
+    background-color: var(--color-5);
+}
+
+#resetBtn {
+    background-color: var(--color-4);
+}
+
+button:focus {
+    outline: none;
+}
+
+#resetBtn {
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+} */
